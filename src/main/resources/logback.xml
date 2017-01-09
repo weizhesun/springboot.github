@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="60 seconds" debug="false">  
+       <property name="APP_Name" value="myAppName" />   
+      <contextName>${APP_Name}</contextName>  
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">  
+    <encoder>  
+      <pattern>%-4relative [%thread] %-5level %logger{35} - %msg %n</pattern>  
+    </encoder>  
+  </appender> 
+    <root level="WARN">             
+    <appender-ref ref="STDOUT" />   
+  </root> 
+  <logger name="com.jr.app.config" level="WARN"/>  
+  
+</configuration>  
