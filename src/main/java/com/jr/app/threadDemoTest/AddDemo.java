@@ -7,4 +7,7 @@ public class AddDemo {
     public static void main(String[] args) {
         System.out.println("add");
     }
+    public void  demo(){
+        System.out.println("asfsd");
+    }
 }
